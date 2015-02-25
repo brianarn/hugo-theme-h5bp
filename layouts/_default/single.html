@@ -9,7 +9,9 @@
 
         <h1>{{ .Title }}</h1>
 
+        {{ if .Params.rendertoc }}
         {{ .TableOfContents }}
+        {{ end }}
 
         <article>
             {{ .Content }}

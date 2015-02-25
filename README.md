@@ -22,13 +22,20 @@ As of this writing, H5BP 5.0.0 is the baseline in use. There has been no
 customized build or anything, it's just a stock "All the things in v5.0.0".
 Updates will be assessed as available, or feel free to submit a PR. :)
 
-## Params
+## Site Params
 
-This theme supports the following additional parameters:
+This theme supports the following additional site parameters:
 
 ### `googleAnalytics`
 
-If you put your GA key into your `params` in your site configuration, the `partials/google-analytics.html` file will use it, making it easy to incorporate Google Analytics through your site.
+The `partials/google-analytics.html` partial uses this site parameter when
+rendering out the `script` element to inject Google Analytics
+
+### Post Front-matter options
+
+The `layout/_default/single.html` template will check for the presence of
+`rendertoc` in your item's front-matter, and if it exists, it will render the
+`{{ .TableOfContents }}` variable into the page.
 
 [h5bp]: https://html5boilerplate.com/
 [Hugo]: http://gohugo.io/
