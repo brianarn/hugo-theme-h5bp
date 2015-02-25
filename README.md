@@ -22,5 +22,13 @@ As of this writing, H5BP 5.0.0 is the baseline in use. There has been no
 customized build or anything, it's just a stock "All the things in v5.0.0".
 Updates will be assessed as available, or feel free to submit a PR. :)
 
+## Params
+
+This theme supports the following additional parameters:
+
+### `googleAnalytics`
+
+If you put your GA key into your `params` in your site configuration, the `partials/google-analytics.html` file will use it, making it easy to incorporate Google Analytics through your site.
+
 [h5bp]: https://html5boilerplate.com/
 [Hugo]: http://gohugo.io/
