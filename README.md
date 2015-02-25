@@ -18,5 +18,9 @@ the theme. It won't provide a whole heck of a lot, aside from a very basic
 baseline that should prove to be a friendly site for a wide variety of modern
 devices.
 
+As of this writing, H5BP 5.0.0 is the baseline in use. There has been no
+customized build or anything, it's just a stock "All the things in v5.0.0".
+Updates will be assessed as available, or feel free to submit a PR. :)
+
 [h5bp]: https://html5boilerplate.com/
 [Hugo]: http://gohugo.io/

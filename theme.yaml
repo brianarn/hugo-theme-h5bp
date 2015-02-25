@@ -1,0 +1,16 @@
+name: "HTML5 Boilerplate for Hugo"
+license: "MIT"
+licenselink: "https://github.com/.../.../LICENSE.md"
+description: "An attempt at using HTML5 Boilerplate as a Hugo theme baseline"
+homepage: "http://siteforthistheme.com/"
+tags: ["", ""]
+features: ["", ""]
+
+author:
+  name: "Brian Arnold"
+  homepage: "http://www.randomthink.net/"
+
+original:
+  name: ""
+  homepage: ""
+  repo: ""
